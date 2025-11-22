@@ -1,0 +1,31 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+*.o
+*.a
+*.so
+.DS_Store
+dist/
+vendor/
+
+# Test coverage
+*.out
+coverage.html
+
+# Example specific
+example/.env
+example/*.txt
